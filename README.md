@@ -9,7 +9,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/kakashijs1/TailwindProject.git
+   git clone https://github.com/WineXerox/TailwindCSS
    cd TailwindProject
    cd app
    ```
