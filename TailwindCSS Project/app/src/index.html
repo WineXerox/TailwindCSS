@@ -26,32 +26,68 @@
                 <a href="Shopdee/index.html">Shopdee</a>
                 <a href="Delivery/index.html">Delivery</a>
                 <a href="FoodPOS/index.html">FoodPOS</a>
+                <a href="">Movie</a>
             </div>
     
             </div>
         </div>
         <!-- navbar section -->
+            <!-- sidebar -->
+            <div class="xw-60 h-[850px] text-white hidden md:flex flex-col fixed ml-2 top-24 bg-[#202528] space-y-2 rounded-3xl z-5 ">
+
+                <!-- <div class="flex items-center w-full justify-center pt-4">
+                    <p class="text-xl text-amber-500">Panel DashBoard</p>
+                </div> -->
         
-        <!-- aside section -->
-        <!-- <div id="hs-offcanvas-example" class="hs-overlay [--auto-close:lg] hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 start-0 bottom-0 z-[60] w-64 bg-white border-e border-gray-200 pt-7 pb-10 overflow-y-auto lg:block lg:translate-x-0 lg:end-auto lg:bottom-0 [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300" role="dialog" tabindex="-1" aria-label="Sidebar">
-            <div class="px-6">
-            <a class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80" href="#" aria-label="Brand">Brand</a>
+                <div class="w-full flex items-center justify-center mt-4 ">
+                        <img 
+                        class="w-32 h-28 object-cover rounded-full"
+                        src="https://i.pinimg.com/originals/33/98/93/3398938623b5411a7fe4c2d2a4e31fb4.png" alt="">
+                </div>
+        
+                <div class="w-full flex items-center justify-center text-xl ">
+                    <p class="text-gray-300">Role: <span class="text-cyan-300"> Super Admin</span></p>
+                </div>
+        
+                <div class="w-full flex items-center justify-center">
+                    <p class="text-gray-400">Work For Balance</p>
+                </div>
+        
+                <!-- section button -->
+                <div class="flex w-full flex-col items-center pt-6 gap-4 h-full">
+        
+                    <div class="w-full flex items-center justify-center px-14 hover:bg-[#181a1e] ">
+                        <i class="fa-brands fa-slack text-orange-500 text-2xl"></i>
+                        <button class="p-4   w-full">Dashboard</button>
+                    </div>
+        
+                    <div class="w-full flex items-center justify-center px-14 hover:bg-[#181a1e] ">
+                        <i class="fa-solid fa-user text-orange-500 text-2xl"></i>
+                        <button class="p-4   w-full pr-14">USER </button>
+                    </div>
+        
+                    <div class="w-full flex items-center justify-center px-14 hover:bg-[#181a1e] ">
+                        <i class="fa-solid fa-timeline text-orange-500 text-2xl"></i>
+                        <button class="p-4   w-full pr-11">History</button>
+                    </div>
+
+                    <div class="w-full flex items-center justify-center px-14 hover:bg-[#181a1e] ">
+                        <i class="fa-solid fa-gear text-orange-500 text-2xl"></i>
+                        <button class="p-4   w-full pr-10">Setting</button>
+                    </div>
+        
+        
+                    <div class="w-full flex items-center justify-center px-14 hover:bg-[#181a1e] ">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <button class="p-4   w-full">Logout</button>
+                    </div>
+                </div>
+                <!-- section button -->
             </div>
-            <nav class="hs-accordion-group p-6 w-full flex flex-col flex-wrap" data-hs-accordion-always-open>
-            <ul class="space-y-1.5">
-                <li>
-                <a class="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-gray-700 rounded-lg hover:bg-gray-100" href="#">
-                    <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                    Dashboard
-                </a>
-                </li>
-            </ul>
-            </nav>
-        </div> -->
-        <!-- aside section -->
-        
+            <!-- sidebar -->
+            
         <!-- content section -->
-        <div class="max-w-5xl mx-auto px-6 py-2">
+        <div class="max-w-5xl mx-auto px-6 py-2 flex flex-wrap">
             <div>
                 <button
                     class="relative overflow-hidden text-white bg-gradient-to-r from-red-500 via-red-600 to-red-800 hover:from-red-800 hover:via-red-600 hover:to-red-500 px-4 py-2 mt-10 ml-10 rounded-xl hover:-translate-y-2 hover:text-yellow-400 hover:scale-110 transition duration-600 focus:ring-2 focus:ring-white group"
@@ -59,7 +95,7 @@
                 <i
                     class="fa-solid fa-bowl-food absolute left-1 top-1/2 transform -translate-y-1/2 text-yellow-500 bg-white p-1 rounded-full group-hover:bg-yellow-500 group-hover:text-white "
                 ></i>
-                -- button
+                <a href="Dashboard/login.html">-- Login</a>
                 </button>
             </div>
 
@@ -70,7 +106,7 @@
                 <i
                     class="fa-solid fa-bowl-food text-yellow-500 bg-white p-1 rounded-full group-hover:bg-yellow-500 group-hover:text-white"
                 ></i>
-                My button
+                <a href="Dashboard/home.html">Dashboard</a>
                 </button>
             </div>
 
@@ -151,6 +187,11 @@
             <div class="flex flex-col items-center gap-1">
                 <i class="fa-solid fa-burger"></i>
                 <a href="FoodPOS/index.html">FoodPOS</a>
+            </div>
+
+            <div class="flex flex-col items-center gap-1">
+                <i class="fa-solid fa-burger"></i>
+                <a href="Movie/index.html">Movie</a>
             </div>
         </div>
         <!-- section footer -->
